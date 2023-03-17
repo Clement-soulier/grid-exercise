@@ -1,9 +1,8 @@
 .continent {
   display: grid;
-  grid-auto-flow: dense;
+  grid-auto-flow: column;
   gap: 5px;
   grid-template-columns: [asie]64px [europe]64px [afrique]64px [amerique]64px [oceanie]64px;
-  grid-auto-rows: column;
 }
 
 .continent > [data-continent="asie"] {
